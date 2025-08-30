@@ -8,9 +8,11 @@ A FastAPI-based patient management system that demonstrates CRUD operations, dat
 - **Automatic BMI Calculation**: Computes BMI automatically from height and weight
 - **Health Verdict System**: Provides health status based on BMI ranges
 - **Data Validation**: Comprehensive input validation using Pydantic models
-- **RESTful API**: Clean and intuitive API endpoints
-- **JSON Storage**: Simple file-based data persistence
-- **Sorting Capabilities**: Sort patients by weight, height, or BMI
+- **RESTful API**: Clean and intuitive API endpoints with automatic OpenAPI documentation
+- **JSON Storage**: Simple file-based data persistence with proper error handling
+- **Sorting Capabilities**: Sort patients by weight, height, or BMI in ascending/descending order
+- **Comprehensive Testing**: Full test coverage with pytest for all endpoints
+- **Modern Python Features**: Uses Python 3.x+ features, type hints, and Pydantic v2
 
 ## 🏗️ Project Structure
 
