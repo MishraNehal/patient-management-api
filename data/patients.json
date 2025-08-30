@@ -1,0 +1,63 @@
+{
+    "P001": {
+        "name": "Ananya Mishra",
+        "city": "Guwahati",
+        "age": 28,
+        "gender": "female",
+        "height": 1.65,
+        "weight": 90.0,
+        "bmi": 33.06,
+        "verdict": "Obesity"
+    },
+    "P002": {
+        "name": "Rahul Verma",
+        "city": "Mumbai",
+        "age": 35,
+        "gender": "male",
+        "height": 1.75,
+        "weight": 65.0,
+        "bmi": 21.22,
+        "verdict": "Normal weight"
+    },
+    "P003": {
+        "name": "Priya Patel",
+        "city": "Ahmedabad",
+        "age": 24,
+        "gender": "female",
+        "height": 1.6,
+        "weight": 45.0,
+        "bmi": 17.58,
+        "verdict": "Underweight"
+    },
+    "P004": {
+        "name": "Amit Kumar",
+        "city": "Mumbai",
+        "age": 42,
+        "gender": "male",
+        "height": 1.7,
+        "weight": 90.0,
+        "bmi": 31.14,
+        "verdict": "Obesity"
+    },
+    "P005": {
+        "name": "John Doe",
+        "city": "New York",
+        "age": 30,
+        "gender": "male",
+        "height": 1.75,
+        "weight": 70.0,
+        "bmi": 22.86,
+        "verdict": "Normal weight"
+    },
+    "P006": {
+        "id": "P006",
+        "name": "Test Patient",
+        "city": "Test City",
+        "age": 30,
+        "gender": "male",
+        "height": 1.75,
+        "weight": 70.0,
+        "bmi": 22.86,
+        "verdict": "Normal weight"
+    }
+}
