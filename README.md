@@ -2,7 +2,7 @@
 
 A FastAPI-based patient management system that demonstrates CRUD operations, data validation, and automatic BMI calculation with health verdicts.
 
-## 🚀 Features
+## Features
 
 - **Complete CRUD Operations**: Create, Read, Update, and Delete patient records
 - **Automatic BMI Calculation**: Computes BMI automatically from height and weight
@@ -14,7 +14,7 @@ A FastAPI-based patient management system that demonstrates CRUD operations, dat
 - **Comprehensive Testing**: Full test coverage with pytest for all endpoints
 - **Modern Python Features**: Uses Python 3.x+ features, type hints, and Pydantic v2
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 patient-management-api/
@@ -29,7 +29,7 @@ patient-management-api/
 └── README.md                # Project documentation
 ```
 
-## 🛠️ Quick Start
+## Quick Start
 
 ### 1. Clone and Setup
 ```bash
@@ -61,13 +61,13 @@ The API will be available at `http://localhost:8000`
 pytest tests/ -v
 ```
 
-## 📚 API Documentation
+## API Documentation
 
 Once the server is running, you can access:
 - **Interactive API Docs**: `http://localhost:8000/docs`
 - **ReDoc Documentation**: `http://localhost:8000/redoc`
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Base Endpoints
 - `GET /` - Welcome message
@@ -83,7 +83,7 @@ Once the server is running, you can access:
 ### Utility Endpoints
 - `GET /sort?sortby={field}&order={asc/desc}` - Sort patients by weight, height, or BMI
 
-## 📊 Patient Data Model
+## Patient Data Model
 
 ```json
 {
@@ -105,7 +105,7 @@ Once the server is running, you can access:
 - **Overweight**: BMI 25.0 - 29.9
 - **Obesity**: BMI ≥ 30.0
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Create a New Patient
 ```bash
@@ -132,7 +132,7 @@ curl "http://localhost:8000/view"
 curl "http://localhost:8000/sort?sortby=bmi&order=desc"
 ```
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **FastAPI** - Modern, fast web framework for building APIs
 - **Pydantic** - Data validation and settings management
@@ -140,11 +140,11 @@ curl "http://localhost:8000/sort?sortby=bmi&order=desc"
 - **Python 3.8+** - Programming language
 - **Pytest** - Testing framework
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Happy Coding! 🎉**
+**Happy Coding! **
 # patient-management-api
